@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 NAME = 'pyptools'
 VERSION = '0.01'
-DESCRIPTION = 'Tools to help parsing delimited log files'
+DESCRIPTION = 'Tools for parsing line delimited log files'
 URL = 'https://github.com/tandreas/pyptools'
 AUTHOR = 'Trevor Andreas'
 AUTHOR_EMAIL = 'tandreas@gmail.com'
