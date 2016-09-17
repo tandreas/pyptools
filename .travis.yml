@@ -7,4 +7,3 @@ install:
   - pip install -r requirements-dev.txt
 sudo: false
 script: py.test
-
