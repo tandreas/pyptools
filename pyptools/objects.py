@@ -40,7 +40,7 @@ class Parser(object):
             :return: data structure containing parsed data
         """
         with open(filename, 'rU') as value:
-            return self.parse(value.read().splitlines(), **kwargs)
+            return self.parse(value.read(), **kwargs)
 
     def iterparse_file(self, filename, **kwargs):
 
